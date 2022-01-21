@@ -1,0 +1,1 @@
+{"version":3,"file":"node-registration.js","sourceRoot":"","sources":["../../../src/nodes-registration/node-registration.ts"],"names":[],"mappings":";;;AAAA,mDAAkD;AAErC,QAAA,YAAY,GAAG;IAC1B,YAAY,EAAE,wBAAY;IAC1B,mBAAmB,EAAE,IAAI,GAAG,EAAE;IAE9B,eAAe,CAAC,cAAsB;QACpC,IAAI,CAAC,mBAAmB,CAAC,GAAG,CAAC,cAAc,CAAC,CAAA;IAC9C,CAAC;CACF,CAAA"}

@@ -1,0 +1,7 @@
+POST {{baseUrl}}/{{version}}/register/register-node-and-broadcast
+Accept: */*
+content-type: application/json
+
+{
+  "nodeHostname": "node-1"
+}

@@ -1,0 +1,45 @@
+version: "3"
+
+services:
+
+  #Blockchain nodes
+  node-1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: blockchain-node-1
+    env_file: ./.env
+    ports:
+      - 3000:3000
+      # Port mapping for debug
+      - 9229:9229
+    volumes:
+      - .:/node/app:delegated
+      # - /node/app/node_modules
+    hostname: "node-1"
+
+  node-2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: blockchain-node-2
+    env_file: .env
+    ports:
+      - 3001:3000
+    volumes:
+      - .:/node/app:delegated
+      # - /node/app/node_modules
+    hostname: "node-2"
+
+  node-3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: blockchain-node-3
+    env_file: ./.env
+    ports:
+      - 3002:3000
+    volumes:
+      - .:/node/app:delegated
+      # - /node/app/node_modules
+    hostname: "node-3"

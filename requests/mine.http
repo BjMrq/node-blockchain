@@ -1,0 +1,3 @@
+POST {{baseUrl}}/{{version}}/mine
+Accept: */*
+content-type: application/json

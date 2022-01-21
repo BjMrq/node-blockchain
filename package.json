@@ -1,0 +1,54 @@
+{
+  "name": "node-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "tsc-watch --project ./tsconfig.json --noClear --onSuccess \"node --inspect=0.0.0.0:9229 ./dist/src/index.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/jsonwebtoken": "^8.5.6",
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.4",
+    "@types/koa-compress": "^4.0.3",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa__cors": "^3.0.3",
+    "@types/node": "^16.11.12",
+    "@types/ramda": "^0.27.60",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "eslint-plugin-sonarjs": "^0.11.0",
+    "eslint-plugin-unicorn": "^39.0.0",
+    "jest": "^27.4.3",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.0",
+    "ts-node": "^10.4.0",
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@types/koa2-ratelimit": "^0.9.1",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "human-id": "^3.0.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compress": "^5.1.0",
+    "koa-helmet": "^6.1.0",
+    "koa-router": "^10.1.1",
+    "koa2-ratelimit": "^0.9.1",
+    "ramda": "^0.27.1",
+    "winston": "^3.3.3"
+  },
+  "volta": {
+    "node": "17.2.0"
+  }
+}

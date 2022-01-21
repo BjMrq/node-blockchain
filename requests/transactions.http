@@ -1,0 +1,9 @@
+POST {{baseUrl}}/{{version}}/transactions
+Accept: */*
+content-type: application/json
+
+{
+  "amount": 90,
+  "sender": "347ss95dfdg64bgbgkjgh",
+  "recipient": "34dfg95hgjh64bgbgkjgh"
+}
